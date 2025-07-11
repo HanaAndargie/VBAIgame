@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/xrash/VBAIgame-main/app.py", line 32, in <module>
+    pygame.display.set_mode(display, DOUBLEBUF|OPENGL)
+pygame.error: cocoa not available
