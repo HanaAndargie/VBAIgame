@@ -1,3 +1,14 @@
+"""
+Some of the code and design patterns in this file are adapted from the official OpenAI Python SDK
+realtime examples: https://github.com/openai/openai-python/tree/main/examples/realtime
+
+Significant modifications were made to fit this project's requirements (3D game loop, Pygame/OpenGL integration,
+and in-game real-time speech/NPC logic). The OpenAI examples provided guidance on async handling,
+audio streaming, and realtime session management.
+
+See OpenAI's repo for their original implementations and documentation.
+"""
+
 class DialogueSystem:
     def init(self):
         self.active = False
